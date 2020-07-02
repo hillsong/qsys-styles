@@ -1,0 +1,81 @@
+page {
+	background-color: rgb(0, 0, 0);
+}
+
+groupbox {
+	background-color: rgb(50,50,50);
+	border-left-width: 2px;
+	border-left-color: rgb(100,100,100);
+	border-radius: 10px;
+}
+
+header {
+	color: white;
+	text-align: left;
+	font-family: "Montserrat";
+	font-size: 32px;
+	-qsc-font-style: "Semibold";
+}
+
+textbox {
+	font-family: "Montserrat";
+	color: white;
+	background-color: rgb(70,70,70);
+}
+
+textbox.time {
+	color: rgb(100,100,100);
+}
+
+textblock {
+	font-family: "Montserrat";
+}
+
+combobox {
+	color: white;
+	font-family: "Montserrat";
+	background-color: rgb(0,0,0);
+}
+listbox {
+	color: white;
+	font-family: "Montserrat";
+	background-color: rgb(0,0,0);
+}
+
+button {
+	background-color: rgb(20, 40, 80);
+	color: rgb(255,255,255);
+	border: 1px white;
+	border-radius: 10px;
+	font-family: "Montserrat";
+	font-size: 16px;
+	-qsc-font-style: "Semibold";
+	vertical-align: middle;
+	text-align: center;
+}
+
+button:value(1) {
+	background-color: rgb(50, 120, 250);
+}
+
+button.mute {
+	background-color: rgb(80,80,80);
+}
+
+button.mute:value(1) {
+	background-color: red;
+}
+
+meter {
+	background-color: rgb(0,0,0);
+	border-radius: 5px;
+	border: 1px solid white;
+}
+
+fader {
+	background-color: rgb(20,40, 80);
+	color: rgb(255,255,255);
+	border: 1px white;
+	border-radius: 10px;
+	font-family: "Montserrat";
+}

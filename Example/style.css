@@ -1,0 +1,231 @@
+page{
+    /*
+    background:url ("images/background.png") ;
+    background-color: Green;
+    background-image: url(images/background.png);
+    background-position: left;
+    background-size: 110% 110%;
+    
+    */
+
+
+}
+
+textblock{
+    /*
+    background:url ("images/background.png") ;
+    background-color: Green;
+    background-image: url(images/background.png);
+    background-position: left;
+    background-size: 110% 110%;
+    border-width: 10px;
+    border-top: 15px;
+    border-top-color: Red;
+    border-radius: 15px;
+    color: Red;
+    content: "Replace Text";
+    font-family: "Open Sans";
+    font-face: Bold;
+    font-size: 32;
+    text-align: left;
+    text-transform: capitalize;
+    vertical-align: top;
+    margin: 10px;
+    opacity: 0.5;
+    padding: 10px;
+    */
+
+}
+
+groupbox{
+    /*
+    background:url ("images/background.png") ;
+    background-color: Green;
+    background-image: url(images/background.png);
+    background-position: left;
+    background-size: 110% 110%;
+    border-width: 10px;
+    border-top: 15px;
+    border-top-color: Red;
+    border-radius: 15px;
+    color: Red;
+    content: "Replace Text";
+    font-family: "Open Sans";
+    font-face: Bold;
+    font-size: 32;
+    text-align: left;
+    text-transform: capitalize;
+    opacity: 0.5;
+    */
+
+}
+
+header{
+   /*
+    color: Red;
+    content: "Replace Text";
+    font-family: "Open Sans";
+    font-face: Bold;
+    font-size: 32;
+    text-align: left;
+    text-transform: capitalize;    
+    */
+}
+
+polygon {
+    /*
+    background:url ("images/background.png") ;
+    background-color: Green;
+    border-width: 10px;
+    border-left: 15px;
+    border-left-color: Red;
+    opacity: 0.5;
+    */
+
+}
+
+
+button{
+    /*
+    background:url ("images/background.png") ;
+    background-color: Green;
+    background-image: url(images/background.png);
+    background-position: left;
+    background-size: 110% 110%;
+    border-width: 10px;
+    border-top: 15px;
+    border-top-color: Red;
+    border-radius: 15px;
+    color: Red;
+    content: "Replace Text";
+    font-family: "Open Sans";
+    font-face: Bold;
+    font-size: 32;
+    text-align: left;
+    text-transform: capitalize;
+    vertical-align: top;
+    margin: 10px;
+    opacity: 0.5;
+    padding: 10px;
+    */
+}
+
+button:value(1){
+    
+}
+
+textbox{
+    /*
+    background:url ("images/background.png") ;
+    background-color: Green;
+    background-image: url(images/background.png);
+    background-position: left;
+    background-size: 110% 110%;
+    border-width: 10px;
+    border-top: 15px;
+    border-top-color: Red;
+    border-radius: 15px;
+    color: Red;
+    font-family: "Open Sans";
+    font-face: Bold;
+    font-size: 32;
+    text-align: left;
+    vertical-align: top;
+    margin: 10px;
+    opacity: 0.5;
+    padding: 10px;
+    */
+}
+
+knob{
+    /*
+    background-color: Red;
+    Opacity: 0.5;
+    */
+}
+
+led{
+    /*
+    background:url ("images/background.png") ;
+    background-color: Green;
+    background-image: url(images/background.png);
+    background-position: left;
+    background-size: 110% 110%;
+    border-width: 10px;
+    border-top: 15px;
+    border-top-color: Red;
+    border-radius: 15px;
+    margin: 10px;
+    opacity: 0.5;
+    */
+
+
+}
+
+fader{
+    /*
+    background-color: Green;
+    border-width: 10px;
+    border-top: 15px;
+    border-top-color: Red;
+    border-radius: 15px;
+    color: Red;
+    content: "Replace Text";
+    font-family: "Open Sans";
+    font-face: Bold;
+    font-size: 32;
+    text-align: left;
+    text-transform: capitalize;
+    vertical-align: top;
+    opacity: 0.5;
+    */
+}
+
+meter{
+    /*
+    background-color: Green;
+    border-width: 10px;
+    border-top: 15px;
+    border-top-color: Red;
+    border-radius: 15px;
+    margin: 10px;
+    opacity: 0.5;  
+    */
+
+}
+
+combobox{
+    /*
+    background-color: Green;
+    border-width: 10px;
+    border-top: 15px;
+    border-top-color: Red;
+    border-radius: 15px;
+    color: Red;
+    font-family: "Open Sans";
+    font-face: Bold;
+    font-size: 32;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 10px;
+    opacity: 0.5;
+    */
+}
+
+listbox{
+    /*
+    background-color: Green;
+    border-width: 10px;
+    border-top: 15px;
+    border-top-color: Red;
+    border-radius: 15px;
+    color: Red;
+    font-family: "Open Sans";
+    font-face: Bold;
+    font-size: 32;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 10px;
+    opacity: 0.5;
+    */
+}
