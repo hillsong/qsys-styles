@@ -43,8 +43,8 @@ listbox {
 }
 
 button {
-	background-color: rgb(20, 40, 80);
-	color: rgb(255,255,255);
+	background-color: rgb(0,150,250);
+	color: white;
 	border: 1px white;
 	border-radius: 10px;
 	font-family: "Montserrat";
@@ -55,7 +55,8 @@ button {
 }
 
 button:value(1) {
-	background-color: rgb(50, 120, 250);
+	background-color: white;
+	color: black;
 }
 
 button.mute {
@@ -73,7 +74,7 @@ meter {
 }
 
 fader {
-	background-color: rgb(20,40, 80);
+	background-color: rgb(0,150,250);
 	color: rgb(255,255,255);
 	border: 1px white;
 	border-radius: 10px;
