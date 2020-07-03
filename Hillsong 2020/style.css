@@ -14,6 +14,11 @@ groupbox.inner {
 	border-left-color: rgb(140,140,140);
 }
 
+groupbox.container {
+	background-color: rgb(20,20,20);
+	border-left-width: 0;
+}
+
 header {
 	color: white;
 	text-align: left;
@@ -31,6 +36,14 @@ textbox {
 }
 
 textbox.time {
+	font-family: "Montserrat";
+	-qsc-font-style: "Regular";
+	color: rgb(100,100,100);
+	border: none;
+}
+textbox.date {
+	font-family: "Montserrat";
+	-qsc-font-style: "Semibold";
 	color: rgb(100,100,100);
 	border: none;
 }
@@ -46,6 +59,11 @@ textbox.channel {
 textblock {
 	font-family: "Montserrat";
 	color: white;
+}
+
+textblock.title {
+	font-size: 24px;
+	-qsc-font-style: "Bold";
 }
 
 combobox {
@@ -67,9 +85,9 @@ listbox {
 }
 
 button {
-	background-color: rgb(0,150,250);
+	background-color: rgb(0,20,50);
 	color: white;
-	border: 1px white;
+	border: 1px solid rgb(255,255,255);
 	border-radius: 10px;
 	font-family: "Montserrat";
 	font-size: 16px;
@@ -79,7 +97,8 @@ button {
 }
 
 button:value(1) {
-	background-color: rgb(224, 191, 0);
+	background-color: rgb(0,150,250);
+	border: 2px solid white;
 }
 
 .mute:value(0) {
